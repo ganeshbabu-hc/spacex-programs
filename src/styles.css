@@ -1,0 +1,101 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.program,
+.filter {
+  border-radius: 6px;
+  box-shadow: 0 0 4px 0px #e0e0e0;
+  margin: 8px 0;
+  padding: 0;
+  background-color: white;
+}
+
+.program-header {
+  max-width: 100px;
+  padding: 1rem;
+  min-height: 100px;
+  width: 100%;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.program-content {
+  padding: 1rem;
+  min-height: 250px;
+}
+.display-label {
+  font-weight: bold;
+  font-size: 14px;
+}
+.display-value {
+  font-weight: normal;
+  font-size: 14px;
+  color: #303f9f;
+  margin-left: 6px;
+}
+
+.search-input {
+  border: solid 2px #a51890;
+  border-radius: 6px;
+  padding: 4px 8px;
+  min-width: 100%;
+}
+
+.btn-logout {
+  background-color: #ff99f0;
+  border-color: #ff99f0;
+  color: black;
+}
+
+.bg-gray {
+  background-color: #f3f3f3;
+}
+
+.header-bg {
+  background-color: #790568;
+}
+
+.filter-category {
+  border-bottom: solid 2px #92d092;
+  margin: 0 3rem;
+  margin-bottom: 1rem;
+}
+.program-container {
+  margin-bottom: 3rem;
+}
+.btn-filter {
+  border: 0;
+  background-color: #aed581;
+  padding: 4px 8px;
+  border-radius: 4px;
+  min-width: 60px;
+}
+.btn-filter.active {
+  background-color: #689f38;
+}
+.mission-ids {
+  padding: 0;
+}
+.mission-ids li {
+  margin-left: 1rem;
+}
+
+.text-blue {
+  color: #303f9f;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  width: 100%;
+}
+.footer .content {
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+}
